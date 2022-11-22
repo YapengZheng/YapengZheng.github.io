@@ -21,10 +21,10 @@ My name is Yapeng Zheng, a graduate student in Department of Statistics, School 
 
 
 # Working Papers
-- *2022* Xiao Wang and Yapeng Zheng, On the estimation of a dynamic network model with degree heterogeneities.
-- *2022* Xiao Wang and Yapeng Zheng, On the estimation of a dynamic network model with fixed level sparsity.
+- *2022*, Xiao Wang and Yapeng Zheng, On the estimation of a dynamic network model with degree heterogeneities.
+- *2022*, Xiao Wang and Yapeng Zheng, On the estimation of a dynamic network model with fixed level sparsity.
 
 
 # 📖 Educations
-- *2021.06 -  present*, Statistics (Financial Engineering).
-- *2017.09 - 2021.06*, Statistics (Mathematical Statistics). 
+- *2021.06 -  present*, Master, Statistics (Financial Engineering).
+- *2017.09 - 2021.06*, Bachelor, Statistics (Mathematical Statistics). 
