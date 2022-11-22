@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Yapeng Zheng, a graduate student in Department of Statistics, School of Mangement, University of Science and Technology. Currently, I am studying network econometrics under the guidance of Professor Xiao Wang. 
+My name is Yapeng Zheng, a graduate student in Department of Statistics, School of Mangement, University of Science and Technology. Currently, I am studying network econometrics under the guidance of Professor Xiao Wang. Please contact me via zypeng12@mail.ustc.edu.cn
 
 
 # Working Papers
