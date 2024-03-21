@@ -17,15 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Yapeng Zheng, a graduate student in Department of Statistics, School of Mangement, University of Science and Technology. Please contact me via zypeng12@mail.ustc.edu.cn
+My name is Yapeng Zheng, a Ph.D. students in Department of Economics, Chinese University of Hong Kong. I am interested in econometrics. 
 
 
-# Working Papers
-- *2023*, Xiao Wang, Yapeng Zheng and Bo Zhang, Estimating a dynamic network formation model with degree heterogeneity: Application to international trade network. 
-- *2022*, Xiao Wang, Yapeng Zheng and Bo Zhang, On the estimation of a dynamic network model with fixed level sparsity.
+
 
 
 # Education
-- *2021.06 -  present*, Master, Statistics (Financial Engineering).
+- *2023.08 - present*, Ph.D. Students, Economics, CUHK
+- *2021.06 - 2023.06*, Master, Statistics (Financial Engineering).
 - *2017.09 - 2021.06*, Bachelor, Statistics (Mathematical Statistics). 
 
