@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Yapeng Zheng, a Ph.D. students in Department of Economics, Chinese University of Hong Kong. I am interested in econometrics. 
+My name is Yapeng Zheng, a Ph.D. students in Department of Economics, Chinese University of Hong Kong. I am interested in econometrics, high-dimensional statistics and machine learning, etc. Currently, I am conducting relevant research under the guidance of Professor Shi, Zhentao. 
 
 
 
@@ -26,5 +26,9 @@ My name is Yapeng Zheng, a Ph.D. students in Department of Economics, Chinese Un
 # Education
 - *2023.08 - present*, Ph.D. Students, Economics, CUHK
 - *2021.06 - 2023.06*, Master, Statistics (Financial Engineering).
-- *2017.09 - 2021.06*, Bachelor, Statistics (Mathematical Statistics). 
+- *2017.09 - 2021.06*, Bachelor, Statistics (Mathematical Statistics).
+
+# Research interests
+- Panel data, high dimesional statistics, network
+
 
