@@ -1,12 +1,29 @@
 ---
-permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+layout: default
+title: About
+permalink: /about/
 ---
+
+# About Me
+
+[Your professional photo]
+
+## Biography
+
+My name is Yapeng Zheng, a Ph.D. students in Department of Economics, The Chinese University of Hong Kong. 
+## Contact Information
+
+- **Email:** [yapengzheng@link.cuhk.edu.hk]
+
+## Research Interests
+
+- Network formation, peer effects
+- Synthetic control
+- High dimensiona statistics
+
+## Education
+- *2023 - present*, Ph.D. Students, Economics, CUHK
+- *2017 - 2021*, Bachelor, Statistics (Mathematical Statistics).
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
@@ -17,16 +34,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Yapeng Zheng, a Ph.D. students in Department of Economics, Chinese University of Hong Kong. I am interested in econometrics, high-dimensional statistics and machine learning, etc. Currently, I am conducting relevant research under the guidance of Professor Shi, Zhentao. 
 
 
 
 
 
-# Education
-- *2023.08 - present*, Ph.D. Students, Economics, CUHK
-- *2021.06 - 2023.06*, Master, Statistics (Financial Engineering).
-- *2017.09 - 2021.06*, Bachelor, Statistics (Mathematical Statistics).
+
+
 
 # Research interests
 - Panel data, high dimesional statistics, network
