@@ -1,48 +1,30 @@
 ---
-layout: default
 title: About
 permalink: /about/
 ---
 
 # About Me
 
-[Your professional photo]
+<div style="text-align: center; margin: 2rem 0;">
+    <img src="../images/profile-photo.jpg" alt="Yapeng Zheng" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #3498db;">
+</div>
 
-## Biography
+I am a PhD student in the Department of Economics at The Chinese University of Hong Kong. My research focuses on network formation, peer effects, synthetic control methods, and high-dimensional statistics.
 
-My name is Yapeng Zheng, a Ph.D. students in Department of Economics, The Chinese University of Hong Kong. 
 ## Contact Information
 
-- **Email:** [yapengzheng@link.cuhk.edu.hk]
+- **Email:** [yapengzheng@link.cuhk.edu.hk](mailto:yapengzheng@link.cuhk.edu.hk)
+- **Affiliation:** Department of Economics, The Chinese University of Hong Kong
+- **Location:** Hong Kong, China
 
 ## Research Interests
 
-- Network formation, peer effects
-- Synthetic control
-- High dimensiona statistics
+- Network formation and peer effects
+- Synthetic control methods
+- High-dimensional statistics
+- Panel data analysis
 
 ## Education
-- *2023 - present*, Ph.D. Students, Economics, CUHK
-- *2017 - 2021*, Bachelor, Statistics (Mathematical Statistics).
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
-
-
-
-
-
-
-
-
-# Research interests
-- Panel data, high dimesional statistics, network
-
-
+- **2023 - Present:** PhD Student, Economics, The Chinese University of Hong Kong
+- **2017 - 2021:** Bachelor's Degree, Statistics (Mathematical Statistics)
