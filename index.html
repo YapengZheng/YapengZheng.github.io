@@ -28,8 +28,10 @@
         }
         
         .profile-section {
-            text-align: center;
-            margin-bottom: 3rem;
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+            gap: 2rem;
         }
         
         .profile-photo {
@@ -38,6 +40,11 @@
             border-radius: 50%;
             object-fit: cover;
             border: 1px solid #ddd;
+            flex-shrink: 0;
+        }
+        
+        .profile-content {
+            flex: 1;
         }
         
         .nav-links {
@@ -102,13 +109,14 @@
                 padding: 1.5rem;
             }
             
-            h1 {
-                font-size: 2rem;
+            .profile-section {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
             }
             
-            .profile-photo {
-                width: 180px;
-                height: 180px;
+            h1 {
+                font-size: 1.6rem;
             }
             
             .nav-links a {
@@ -120,29 +128,33 @@
 </head>
 <body>
     <div class="container">
-        <div class="profile-section">
-            <img src="images/profile-photo.jpg" alt="Yapeng Zheng" class="profile-photo">
-        </div>
-        
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="research.html">Research</a>
         </div>
 
-        <h1>Yapeng Zheng</h1>
-        
-        <div class="contact">
-            <p><strong>Email:</strong> <a href="mailto:yapengzheng@link.cuhk.edu.hk">yapengzheng@link.cuhk.edu.hk</a></p>
-            <p><strong>Affiliation:</strong> Department of Economics, The Chinese University of Hong Kong</p>
-            <p><strong>Advisor:</strong> <a href="https://zhentaoshi.github.io/" target="_blank">Professor Zhentao Shi</a></p>
-            <p><strong>Location:</strong> Hong Kong, China</p>
-            <p><strong>CV:</strong> <a href="Yapengzheng_CV.pdf" target="_blank">Download PDF</a></p>
+        <div class="profile-section">
+            <img src="images/profile-photo.jpg" alt="Yapeng Zheng" class="profile-photo">
+            <div class="profile-content">
+                <h1>Yapeng Zheng</h1>
+                
+                <div class="contact">
+                    <p><strong>Email:</strong> <a href="mailto:yapengzheng@link.cuhk.edu.hk">yapengzheng@link.cuhk.edu.hk</a></p>
+                    <p><strong>Affiliation:</strong> Department of Economics, The Chinese University of Hong Kong</p>
+                    <p><strong>Advisor:</strong> <a href="https://zhentaoshi.github.io/" target="_blank">Professor Zhentao Shi</a></p>
+                    <p><strong>Location:</strong> Hong Kong, China</p>
+                    <p><strong>CV:</strong> <a href="Yapengzheng_CV.pdf" target="_blank">Download PDF</a></p>
+                </div>
+
+                <h2>About</h2>
+                <div class="about-text">
+                    <p>I am a Ph.D. Candidate in Economics at The Chinese University of Hong Kong, advised by Professor Zhentao Shi. My research focuses on network formation, peer effects, synthetic control methods, and high-dimensional statistics.</p>
+                </div>
+            </div>
         </div>
 
-        <div class="about-text">
-            <p>I am a Ph.D. Candidate in Economics at The Chinese University of Hong Kong, advised by Professor Zhentao Shi. My research focuses on network formation, peer effects, synthetic control methods, and high-dimensional statistics.</p>
-        </div>
+        
     </div>
 </body>
 </html>
