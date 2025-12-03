@@ -128,33 +128,59 @@
         
         .profile-content {
             flex: 1;
+            max-width: 600px;
         }
         
-        .nav-links {
-            text-align: center;
-            margin: 2rem auto 3rem auto;
-            padding: 1.5rem 0;
-            max-width: 800px;
+        .content-section {
+            margin-top: 2rem;
         }
         
-        .nav-links a {
-            display: inline-block;
-            margin: 0 2rem;
-            color: #333;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 1.1rem;
-            padding: 0.8rem 1.5rem;
-            border-radius: 25px;
-            transition: all 0.3s ease;
-            background: transparent;
+        .education {
+            margin: 2rem 0;
+        }
+        
+        .education-item {
+            margin: 1.5rem 0;
+            font-size: 1rem;
+            line-height: 1.7;
+            padding: 0.5rem 0;
+            font-weight: 400;
             letter-spacing: 0.01em;
         }
         
-        .nav-links a:hover {
-            background: #0066cc;
-            color: white;
-            transform: translateY(-2px);
+        .publication-section {
+            margin: 2rem 0;
+        }
+        
+        .publication-item {
+            margin: 1.5rem 0;
+        }
+        
+        .publication-item p {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+            line-height: 1.7;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+        }
+        
+        .publication-item a {
+            color: #cc6600;
+            text-decoration: none;
+        }
+        
+        .publication-item a:hover {
+            text-decoration: underline;
+            color: #994400;
+        }
+        
+        .conference-item {
+            margin: 1rem 0;
+        }
+        
+        .conference-item p {
+            font-size: 1rem;
+            line-height: 1.7;
         }
         
         h1 {
@@ -202,9 +228,15 @@
         
         h2 {
             color: #333;
-            margin: 2rem 0 1rem 0;
-            font-size: 1.2rem;
-            font-weight: normal;
+            margin: 3rem 0 1.5rem 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        h2:first-of-type {
+            margin-top: 2rem;
         }
         
         .about-text {
@@ -259,11 +291,17 @@
                 font-size: 1.8rem;
             }
             
-            .nav-links a {
-                display: block;
-                margin: 0.8rem 0;
-                font-size: 1rem;
-                padding: 0.7rem 1.2rem;
+            h2 {
+                font-size: 1.3rem;
+                margin: 2rem 0 1rem 0;
+            }
+            
+            .content-section {
+                margin-top: 1.5rem;
+            }
+            
+            .profile-content {
+                max-width: 100%;
             }
             
             .about-text {
@@ -274,12 +312,6 @@
 </head>
 <body>
     <div class="container">
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="research.html">Research</a>
-        </div>
-
         <div class="profile-section">
             <div class="profile-left">
                 <img src="images/sel_photo.jpg" alt="Yapeng Zheng" class="profile-photo">
@@ -291,14 +323,63 @@
                 </div>
             </div>
             <div class="profile-content">
+            <h2>About Me</h2>
                 <div class="about-text">
-                    <p>My name is Yapeng Zheng. I am a Ph.D. Candidate in Economics at The Chinese University of Hong Kong, advised by Professor  <a href="https://zhentaoshi.github.io/" target="_blank">Zhentao Shi</a>. I specialize in econometrics.
-                    </p>
-                    <p> Email: <a href="mailto:yapengzheng@link.cuhk.edu.hk">yapengzheng@link.cuhk.edu.hk</a></p>
+                    My name is Yapeng Zheng. I am a Ph.D. Candidate in Economics at The Chinese University of Hong Kong, advised by Professor  <a href="https://zhentaoshi.github.io/" target="_blank">Zhentao Shi</a>. I specialize in econometrics.
+                </div>
+                
+                <div class="content-section">
+            <h2>Education</h2>
+            <div class="education">
+                <div class="education-item">
+                    <strong>Ph.D. Candidate</strong> (2023 -- present)<br>
+                    The Chinese University of Hong Kong, Hong Kong, China<br>
+                    <em>Advisor: Zhentao Shi</em>
+                </div>
+                <div class="education-item">
+                    <strong>Master, Coursework, Statistics and Finance</strong> (2021 -- 2023)<br>
+                    University of Science and Technology of China, Hefei, China
+                </div>
+                <div class="education-item">
+                    <strong>Bachelor, Statistics and Finance</strong> (2017 -- 2021)<br>
+                    University of Science and Technology of China, Hefei, China
+                </div>
+            </div>
+
+            <h2>Working Papers</h2>
+            <div class="publication-section">
+                <div class="publication-item">
+                    <p><strong>Chengwang Liao, Zhentao Shi, and Yapeng Zheng (2025).</strong> "A Relaxation Approach to Synthetic Control."</p>
+                    <p><a href="https://arxiv.org/abs/2508.01793" target="_blank">arXiv:2508.01793</a></p>
+                </div>
+                <div class="publication-item">
+                    <p><strong>Ming Li, Zhentao Shi, and Yapeng Zheng (2025).</strong> "Bagging the Network."</p>
+                    <p><a href="https://arxiv.org/abs/2410.23852" target="_blank">arXiv:2410.23852</a></p>
+                </div>
+                <div class="publication-item">
+                    <p><strong>Zhongjian Lin, Zhentao Shi, and Yapeng Zheng (2025).</strong> "Social Interaction Models with Latent Structure."</p>
+                </div>
+            </div>
+
+            <h2>Working in Progress</h2>
+            <div class="publication-section">
+                <div class="publication-item">
+                    <p><strong>Yapeng Zheng (2025).</strong> "Detecting Sparse Nonlinear Signals in Factor Models."</p>
+                </div>
+                <div class="publication-item">
+                    <p><strong>Donald W. K. Andrews, Ming Li, and Yapeng Zheng (2025).</strong> "Initial Condition Robust Inference in Autoregressive Models."</p>
+                </div>
+            </div>
+
+            <h2>Conferences and Presentations</h2>
+            <div class="publication-section">
+                <div class="conference-item">
+                    <p><strong>2025:</strong> CUHK brownbag (Hong Kong), SETA (Macao), ICES (Harbin), ESWC (Seoul)</p>
+                </div>
+            </div>
                 </div>
             </div>
         </div>
-
         
     </div>
 </body>
