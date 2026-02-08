@@ -33,32 +33,8 @@ exclude:
 
 # Plugins - minimal only
 plugins:
-  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-feed
-
-# Jekyll Scholar
-scholar:
-  last_name: [Zheng]
-  first_name: [Yapeng, Y.]
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib_template
-  query: "@*"
-  group_by: year
-  group_order: descending
-  details_dir: bibliography
-  details_link: Details
-  bibliography_list_tags: false
-
-# Filtered bibtex keywords
-filtered_bibtex_keywords:
-  - abbr
-  - abstract
-  - bibtex_show
-  - selected
 
 # Sitemap
 defaults:
