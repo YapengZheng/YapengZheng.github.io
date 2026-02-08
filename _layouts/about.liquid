@@ -58,8 +58,14 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>working papers</h2>
+      <h2>WORKING PAPERS</h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Work in Progress -->
+    {% if page.work_in_progress %}
+      <h2>Work in Progress</h2>
+      {% include work_in_progress.liquid %}
     {% endif %}
 
     <!-- Social -->

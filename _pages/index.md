@@ -11,6 +11,7 @@ profile:
 
 selected_papers: true
 social: false
+work_in_progress: true
 
 announcements:
   enabled: false
@@ -33,8 +34,3 @@ I am a Ph.D. Candidate in Economics at The Chinese University of Hong Kong, advi
 ## Conferences and Presentations
 
 **2025:** CUHK brownbag (Hong Kong), SETA (Macao), ICES (Harbin), ESWC (Seoul)
-
-## Work in Progress
-
-- Support Vector Machines with Two Way Fixed Effects
-- Poisson Autoencoders
