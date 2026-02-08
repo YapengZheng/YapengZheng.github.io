@@ -133,9 +133,8 @@ DEPENDENCIES
   csv
   jekyll (~> 4.3.0)
   jekyll-feed
-  jekyll-scholar
+  jekyll-scholar (~> 7.3)
   jekyll-sitemap
-  jekyll-watch (~> 2.0)
 
 BUNDLED WITH
    2.6.7
