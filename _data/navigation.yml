@@ -1,9 +1,6 @@
 # this file defines the navigation menu of the site
-# for more information, please refer to the documentation at https://github.com/alshedivat/al-folio#navigation
 
 main:
-  - title: "Publications"
-    url: /publications/
   - title: "CV"
     url: /files/CV.pdf
     new_tab: true
