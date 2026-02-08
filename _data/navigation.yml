@@ -1,6 +1,0 @@
-# this file defines the navigation menu of the site
-
-main:
-  - title: "CV"
-    url: /files/CV.pdf
-    new_tab: true
